@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'hats_rest.apps.HatApiConfig',
     "corsheaders",
     'django.contrib.admin',
     'django.contrib.auth',
